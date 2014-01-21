@@ -10,7 +10,7 @@ Quick example, using gitflow and github, publishing all features.
          |         \   \      |            \
          .-develop--+---+---. | .-----------+---.
          |                   \|/                 \
-    -----o-master-------------+-------------------+
+    -----o-master-------------+-------------------+ (v1.3 for README)
          ^                    ^                   ^
        v1.0                 v1.1                v1.2
 
@@ -99,3 +99,4 @@ started to convert README file from `org-mode` to `markdown`, figured this had t
     git commit -m 'README converted to markdown'
     git flow hotfix finish 'v1.3.1'
     git push -u origin --all
+    git push --tags
