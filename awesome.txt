@@ -1,5 +1,6 @@
 p3:helper1
 feature1
+p3:feature
 feature2
 p1:feature
 feature3
